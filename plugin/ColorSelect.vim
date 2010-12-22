@@ -17,9 +17,9 @@ let s:install_dir = expand('<sfile>:p:h')
 function! ColorSelectFunc()
   let result = system('ruby '.s:install_dir.'/ColorSelect.rb '.g:CaseResultColorSelect)
   let line = getline(".")
-  let ant = getpos(".")[2]
+  let ant = getpos(".")[2]-1
   let pos = ant+1
-  call setline(".", line[0 : getpos(".")[2]].result.line[getpos(".")[2]+1 : col("$")-1])
+  call setline(".", line[0 : ant].result.line[pos : col("$")-1])
 endfunction
 
 command! ColorSelect call ColorSelectFunc()
