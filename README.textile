@@ -8,12 +8,12 @@ Command to call
   ColorSelect
 
   To add a shortcut
-  <pre>
+  <pre><code>
   "ColorSelect
   imap <F5> <esc>:ColorSelect<CR>
-  </pre>
+  </code></pre>
   
   Default value returned in downcase, to change do return in UPPERCASE:
-  <pre>
+  <pre><code>
   g:CaseResultColorSelect='upcase'
-  </pre>
+  </code></pre>
