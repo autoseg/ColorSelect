@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3374
+
+Plugin to help write hexadecimals colors.
+
+This opens a gtk color dialog, when select a color this is writed on document.
+
+Command to call
+  ColorSelect
+
+  To add a shortcut
+  <pre>
+  "ColorSelect
+  imap <F5> <esc>:ColorSelect<CR>
+  </pre>
+  
+  Default value returned in downcase, to change do return in UPPERCASE:
+  <pre>
+  g:CaseResultColorSelect='upcase'
+  </pre>
