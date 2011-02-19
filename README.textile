@@ -13,7 +13,14 @@ Command to call
   imap <F5> <esc>:ColorSelect<CR>
   </code></pre>
   
-  Default value returned in downcase, to change do return in UPPERCASE:
-  <pre><code>
-  g:CaseResultColorSelect='upcase'
-  </code></pre>
+  Default result is in hexadecimal
+	  Default value returned in downcase, to change do return in UPPERCASE:
+	  <pre><code>
+	  g:CaseResultColorSelect='upcase'
+	  </code></pre>
+
+  If want values with rgba(with alpha value), set this:
+	<pre><code>
+	g:FormatResultColorSelect='rgba'
+	</code></pre>
+
