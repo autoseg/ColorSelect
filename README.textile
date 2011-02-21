@@ -23,10 +23,10 @@ This opens a gtk color dialog, when select a color this is writed on document.
 
 Options
 
-table{border-collapse: collapse; font-family: Verdana}.
-|_{border:1px solid #bbb; padding: 5px}. Variable                  |_{border:1px solid #bbb; padding: 5px}. Function                                |_{border:1px solid #bbb; padding: 5px}. Default     |_{border:1px solid #bbb; padding: 5px}. Possibles            |
-|={border:1px solid #bbb; padding: 5px}. g:FormatResultColorSelect |={border:1px solid #bbb; padding: 5px}. Sets the format returned by ColorSelect |={border:1px solid #bbb; padding: 5px}. hexadecimal |={border:1px solid #bbb; padding: 5px}. 'hex' or 'rgba'       |
-|={border:1px solid #bbb; padding: 5px}. g:CaseResultColorSelect   |={border:1px solid #bbb; padding: 5px}. Sets, in hex mode, case of return       |={border:1px solid #bbb; padding: 5px}. upcase      |={border:1px solid #bbb; padding: 5px}. 'upcase' or 'dowcase' |
+table{font-family: Verdana}.
+|_. Variable                  |_. Function                                |_. Default     |_. Possibles             |
+|=. g:FormatResultColorSelect |=. Sets the format returned by ColorSelect |=. hexadecimal |=. 'hex' or 'rgba'       |
+|=. g:CaseResultColorSelect   |=. Sets, in hex mode, case of return       |=. upcase      |=. 'upcase' or 'dowcase' |
 
 h2. To add a shortcut
 
