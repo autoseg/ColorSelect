@@ -23,10 +23,14 @@ This opens a gtk color dialog, when select a color this is writed on document.
 
 Options
 
-table{font-family: Verdana}.
-| *Variable*                  | *Function*                              | *Default*   | *Possibles*           |
-| _g:FormatResultColorSelect_ | Sets the format returned by ColorSelect | hexadecimal | 'hex' or 'rgba'       |
-| _g:CaseResultColorSelect_   | Sets, in hex mode, case of return       | upcase      | 'upcase' or 'dowcase' |
+* g:FormatResultColorSelect_ 
+** Sets the format returned by ColorSelect 
+** hexadecimal 
+** 'hex' or 'rgba'       
+* g:CaseResultColorSelect_   
+** Sets, in hex mode, case of return       
+** upcase      
+** 'upcase' or 'dowcase' 
 
 h2. To add a shortcut
 
