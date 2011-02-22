@@ -24,13 +24,13 @@ This opens a gtk color dialog, when select a color this is writed on document.
 Options
 
 * g:FormatResultColorSelect_ 
-** Sets the format returned by ColorSelect 
-** hexadecimal 
-** 'hex' or 'rgba'       
+** *Function*:   Sets the format returned by ColorSelect
+** *Default*:    hexadecimal
+** *Possibles*:  'hex' or 'rgba'
 * g:CaseResultColorSelect_   
-** Sets, in hex mode, case of return       
-** upcase      
-** 'upcase' or 'dowcase' 
+** *Function*:   Sets, in hex mode, case of return       
+** *Default*:    upcase      
+** *Possibles*:  'upcase' or 'dowcase' 
 
 h2. To add a shortcut
 
